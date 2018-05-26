@@ -17,4 +17,7 @@ RUN apk update \
 
 EXPOSE 1313
 
+VOLUME /site
 WORKDIR /site
+
+CMD ["hugo"]
